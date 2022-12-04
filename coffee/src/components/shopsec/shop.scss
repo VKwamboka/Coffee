@@ -1,0 +1,14 @@
+.shop{
+    width: 100%;
+    padding-top: 6rem;
+
+    .grid--uniform{
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(3,8fr);
+        // grid-gap: 10px;
+        
+    }
+   
+
+}

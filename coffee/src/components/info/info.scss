@@ -1,6 +1,18 @@
 .we-are-different{
     width: 100%;
-    padding-top: 24rem;
+    // padding-top: 44rem;
+    .slide1{
+        background-position: center center;
+        background-image: url("https://cdn.shopify.com/s/files/1/0043/8714/3773/files/coffee-plant_1296x.jpg?v=1613532888");
+    }
+    .slide2{
+        background-position: center center; 
+        background-image: url("https://cdn.shopify.com/s/files/1/0043/8714/3773/files/hand-full-of-roasted-coffee_1296x.jpg?v=1613532984");
+    }
+    .slide3{
+        background-position: center center; 
+        background-image: url("https://cdn.shopify.com/s/files/1/0043/8714/3773/files/barista-pours-steamed-milk-on-espresso_1296x.jpg?v=1613533575");
+    }
 
     img{
         max-width: 7.5rem;
@@ -35,4 +47,16 @@
             text-align: center;
         }
     }
+}
+.slide1{
+    background-position: center center;
+    background-image: url("https://cdn.shopify.com/s/files/1/0043/8714/3773/files/coffee-plant_1296x.jpg?v=1613532888");
+}
+.slide2{
+    background-position: center center; 
+    background-image: url("https://cdn.shopify.com/s/files/1/0043/8714/3773/files/hand-full-of-roasted-coffee_1296x.jpg?v=1613532984");
+}
+.slide3{
+    background-position: center center; 
+    background-image: url("https://cdn.shopify.com/s/files/1/0043/8714/3773/files/barista-pours-steamed-milk-on-espresso_1296x.jpg?v=1613533575");
 }

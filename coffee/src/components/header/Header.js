@@ -104,8 +104,8 @@ const Header = () => {
 
           <div className="grid__item medium-up--one-quarter text-right site-header__icons site-header__icons--plus">
             <div className="site-header__icons-wrapper">
-              <div className="site-header__search site-header__icon">
-                <form
+              {/* <div className="site-header__search site-header__icon"> */}
+                {/* <form
                   action="/search"
                   method="get"
                   className="search-header search"
@@ -145,10 +145,10 @@ const Header = () => {
                       <option value="CAD">CAD</option>
                     </select>
                   </div>
-                </form>
-              </div>
+                </form> */}
+              {/* </div> */}
 
-              <div className="mlveda-mobile">
+              {/* <div className="mlveda-mobile">
                 <a className="pick_currency " >
                   <select
                     id="currencies1"
@@ -161,7 +161,7 @@ const Header = () => {
                     <option value="CAD">CAD</option>
                   </select>
                 </a>
-              </div>
+              </div> */}
               <button
                 type="button"
                 className="btn--link site-header__icon site-header__search-toggle js-drawer-open-top"
