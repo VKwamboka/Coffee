@@ -1,0 +1,33 @@
+main{
+    width: 100%;
+    background-color: #ddd;
+    
+    // font-family: 'Montserrat', sans-serif;
+    .container-fluid {
+        padding: auto;
+        // padding-top: 28rem;
+    }
+    
+    .fw-bold {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .mb-0 {
+        padding: 2rem;
+        font-size: 24px;
+        margin-top: 2rem;
+        text-align: center;
+      
+    }
+    .row{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+        padding-top: 5rem;
+    }
+    .p-5{
+        justify-content: space-between;
+        align-self: center;
+    }
+  
+}
